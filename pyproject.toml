@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum_benchmark"
+version = "1.0.0"
+description = "Clifford Volume and Free-Fermion Volume benchmarks (arXiv:2512.19413)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.8",
+    "matplotlib>=3.5",
+    "stim>=1.12",
+    "jsonschema>=4.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["quantum_benchmark", "quantum_benchmark.*"]

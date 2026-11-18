@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv*/
+venv/
+.vscode/
+.idea/
+
+# generated benchmark / result files
+.benchmarks/
+*.json
