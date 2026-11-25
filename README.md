@@ -51,3 +51,7 @@ score = volume_score({18: True, 19: True, 20: result["passed"]})
 
 The QASM dialect can be chosen with `format="qasm2" | "qasm3"` and
 `target_sdk="qiskit" | "tket" | "braket"`.
+
+# Acknowledge
+
+This work was supported by the National Research, Development and Innovation Office within the National Research, Development and Innovation Fund, through the AI4QT project Nr. 2020-1.2.3-EUREKA-2022-00029.
